@@ -10,12 +10,12 @@ const routes = [
     element: <Home />,
     children: [
       {
-        path: "/about",
-        element: <About />
-      },
-      {
         path: "/blogs",
         element: <Blogs />
+      },
+      {
+        path: "/about",
+        element: <About />
       }
     ]
   },
